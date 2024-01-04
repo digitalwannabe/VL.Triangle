@@ -868,6 +868,16 @@
                   <Pin Id="GGK7C3zlingPa8qrvpxwas" Name="Output" Kind="OutputPin" IsHidden="true" />
                   <Pin Id="NSyllmY7PegO9j0Z7VTrsr" Name="Vertices" Kind="OutputPin" />
                 </Node>
+                <Node Bounds="559,1139,80,19" Id="CAQPi0uHDdNPGmjF87nwgU">
+                  <p:NodeReference LastCategoryFullName="Collections.Sequence" LastDependency="VL.CoreLib.vl">
+                    <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                    <Choice Kind="OperationCallFlag" Name="FirstOrDefault" />
+                  </p:NodeReference>
+                  <Pin Id="Ptt0znCl9KJPwQKalo2CWI" Name="Input" Kind="StateInputPin" />
+                  <Pin Id="P9dOJ5crJTAL7ZeGCKuE1b" Name="Default Value" Kind="InputPin" />
+                  <Pin Id="U0rkCBsFPpkOAlDEdP37Dz" Name="Output" Kind="StateOutputPin" />
+                  <Pin Id="C6rrZX4PWAKMHt8j77g7OE" Name="Result" Kind="OutputPin" />
+                </Node>
               </Patch>
             </Node>
             <Pad Id="RA0CUQJUaUaMDAlvqugQLY" Comment="Condition" Bounds="331,94,35,35" ShowValueBox="true" isIOBox="true" Value="False">
@@ -1056,6 +1066,8 @@
           <Link Id="GZiLBV5TewaPvUGwYg23gL" Ids="OeLFULoAPzTONrb8puL6eV,UD68zx4mSMhPTMN4tjnyEJ" />
           <Link Id="M8vvdWbOeSsMGR8h4Pkeoi" Ids="UD68zx4mSMhPTMN4tjnyEJ,RmcuBnZsjRSMkiM4dTrZV9" />
           <Link Id="M7plfQVVNZdONK00qZ8f6A" Ids="RmcuBnZsjRSMkiM4dTrZV9,CbjbVrsWDslN8RHCDAz0Wg" />
+          <Link Id="TuJUTL9yK3sPjQFL0mFW4l" Ids="C6rrZX4PWAKMHt8j77g7OE,Tg6JcRj7LSHMnU6tSv0UoQ" />
+          <Link Id="CiJH1Z6hJ9tPZtltdKEoSz" Ids="T6J1IgexcUsP5MfoBkSd7j,Ptt0znCl9KJPwQKalo2CWI" />
         </Patch>
       </Node>
     </Canvas>
