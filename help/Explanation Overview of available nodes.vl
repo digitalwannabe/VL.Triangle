@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" xmlns:r="reflection" Id="M1ZDn3SCNCmOPBB3yDxTkD" LanguageVersion="2023.5.2" Version="0.128">
+<Document xmlns:p="property" xmlns:r="reflection" Id="RAuXsPORdHwM1qmtoZxFP6" LanguageVersion="2023.5.2" Version="0.128">
   <NugetDependency Id="UxzveOWliBHPVDCApu8wvp" Location="VL.CoreLib" Version="2023.5.2" />
   <Patch Id="GBG389C8QxCL4EeVDRluIb">
     <Canvas Id="ThiOPfaW54HNqVJPBVvmOe" DefaultCategory="Main" BordersChecked="false" CanvasType="FullCategory" />
@@ -700,7 +700,7 @@
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="TextureWindow" />
             </p:NodeReference>
-            <Pin Id="TW9KSV2WcBJMtftu5cTS4X" Name="Bounds" Kind="InputPin" DefaultValue="-928, 140, 402.4, 432" />
+            <Pin Id="TW9KSV2WcBJMtftu5cTS4X" Name="Bounds" Kind="InputPin" DefaultValue="-1262.8, 134.8, 402.4, 432" />
             <Pin Id="UWq3pNZFWisPaXZ9ayabBY" Name="Input" Kind="InputPin" />
             <Pin Id="BAaZ0x6mMytLYyt3OfJkp3" Name="Title" Kind="InputPin" />
             <Pin Id="OKAoPwEHu5BNU6Z4AO4O1N" Name="Clear Color" Kind="InputPin" />
