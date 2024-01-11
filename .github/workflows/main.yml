@@ -26,5 +26,5 @@ jobs:
       with:
         nuspec: deployment\VL.Triangle.nuspec
         icon-src: https://lichterloh.tv/dev/vl-triangle/triangleLogo512.png
-        icon-dst: ./nugeticon.png
+        icon-dst: ./deployment/nugeticon.png
         nuget-key: ${{ secrets.NUGET_KEY }}
