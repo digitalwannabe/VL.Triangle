@@ -22,9 +22,9 @@ jobs:
       uses: nuget/setup-nuget@v1
 
     - name: Publish VL Nuget
-    uses: vvvv/PublishVLNuget@1.0.42
-    with:
-    nuspec: deployment\VL.Triangle.nuspec
-    icon-src: https://wwww.lichterloh.tv/dev/vl-triangle/triangleLogo512.png
-    icon-dst: ./nugeticon.png
-    nuget-key: ${{ secrets.NUGET_KEY }}
+      uses: vvvv/PublishVLNuget@1.0.42
+      with:
+      nuspec: deployment\VL.Triangle.nuspec
+      icon-src: https://wwww.lichterloh.tv/dev/vl-triangle/triangleLogo512.png
+      icon-dst: ./nugeticon.png
+      nuget-key: ${{ secrets.NUGET_KEY }}
