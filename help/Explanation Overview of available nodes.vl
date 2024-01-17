@@ -15,7 +15,7 @@
       </p:NodeReference>
       <Patch Id="IkTfIq7rxQRNeDQGaAVL7X">
         <Canvas Id="Q1j4pU0uEbiPN11ZVVtUk9" CanvasType="Group">
-          <Node Bounds="323,586,145,19" Id="OHRs9OiEy5uNz9YhM3v2TM">
+          <Node Bounds="432,523,145,19" Id="OHRs9OiEy5uNz9YhM3v2TM">
             <p:NodeReference LastCategoryFullName="2D.Geometry.Triangulation" LastDependency="VL.Triangle.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <CategoryReference Kind="Category" Name="Triangulation" NeedsToBeDirectParent="true" />
@@ -33,7 +33,7 @@
             <Pin Id="RrYXZYjmUNRPTidSrxOWfG" Name="Mesh" Kind="OutputPin" />
             <Pin Id="TpVCWWmNociLhXIgzPBuCt" Name="Error Message" Kind="OutputPin" />
           </Node>
-          <Node Bounds="502,475,99,19" Id="Lq1J96ajnXTQL6CcI6zk3D">
+          <Node Bounds="611,412,99,19" Id="Lq1J96ajnXTQL6CcI6zk3D">
             <p:NodeReference LastCategoryFullName="2D.Geometry.Triangulation" LastDependency="VL.Triangle.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="ConstraintOptions" />
@@ -44,7 +44,7 @@
             <Pin Id="CAv217sjnhrMfwQiQcp4ne" Name="Segment Splitting" Kind="InputPin" />
             <Pin Id="QrmO7TIzSDFOjbAu64hvca" Name="Output" Kind="StateOutputPin" />
           </Node>
-          <Node Bounds="417,553,85,19" Id="LRIdrvyEDcUPKuG5dNuFvV">
+          <Node Bounds="526,490,85,19" Id="LRIdrvyEDcUPKuG5dNuFvV">
             <p:NodeReference LastCategoryFullName="2D.Geometry.Triangulation" LastDependency="VL.Triangle.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="QualityOptions" />
@@ -57,7 +57,7 @@
             <Pin Id="Gf7OFYxuDJmPvlg7NO2Rdu" Name="MaximumArea" Kind="InputPin" />
             <Pin Id="EDHCnmez12UMpL5268Xm99" Name="Output" Kind="StateOutputPin" />
           </Node>
-          <Node Bounds="504,439,65,19" Id="VpBUsmRzsoyNcf86VCJTPG">
+          <Node Bounds="613,376,65,19" Id="VpBUsmRzsoyNcf86VCJTPG">
             <p:NodeReference LastCategoryFullName="2D.Geometry.Triangulation" LastDependency="VL.Triangle.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="Smoothing" />
@@ -67,7 +67,7 @@
             <Pin Id="TXqpYbT63YcMHyILXCGqkb" Name="Smoothing Limit" Kind="InputPin" DefaultValue="10" />
             <Pin Id="Ej3yY0en5uUP7k7UIsJbIn" Name="Output" Kind="StateOutputPin" />
           </Node>
-          <Node Bounds="320,377,85,19" Id="Pneg0Rk79tfPoCinIddHhG">
+          <Node Bounds="429,314,85,19" Id="Pneg0Rk79tfPoCinIddHhG">
             <p:NodeReference LastCategoryFullName="Collections.Spread" LastDependency="VL.CoreLib.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="CircleSpread" />
@@ -80,7 +80,7 @@
             <Pin Id="SkQbrcieds1PtUC5OYiOs3" Name="Count" Kind="InputPin" DefaultValue="3" />
             <Pin Id="Pm0jRqsqq0fMzNGtgDFE8P" Name="Output" Kind="OutputPin" />
           </Node>
-          <Node Bounds="323,509,85,19" Id="GFKfJlj0q1SQX0E19OnBmz">
+          <Node Bounds="432,446,85,19" Id="GFKfJlj0q1SQX0E19OnBmz">
             <p:NodeReference LastCategoryFullName="2D.Geometry.Triangulation" LastDependency="VL.Triangle.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="Contours" />
@@ -93,7 +93,7 @@
             <Pin Id="Kdhtk8fIfdXLasKQK5WFDz" Name="Hole" Kind="InputPin" />
             <Pin Id="LSX6dx8Jjp6O2GaXPjQ58K" Name="Output" Kind="OutputPin" />
           </Node>
-          <Node Bounds="321,438,39,19" Id="JnNtF70yyzSMq0T4vEc4ZE">
+          <Node Bounds="431,414,39,19" Id="JnNtF70yyzSMq0T4vEc4ZE">
             <p:NodeReference LastCategoryFullName="Collections.Spread" LastDependency="VL.CoreLib.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <CategoryReference Kind="4026531840" Name="Spread" NeedsToBeDirectParent="true" />
@@ -103,7 +103,7 @@
             <Pin Id="PAEGiQzur3HQYBBJT0tzt8" Name="Input 2" Kind="InputPin" />
             <Pin Id="HxPEQyFG3jNMrQsKvGHW05" Name="Result" Kind="OutputPin" />
           </Node>
-          <Node Bounds="355,411,85,19" Id="M0ApJZzqhuZMx7JtUF18KX">
+          <Node Bounds="464,348,85,19" Id="M0ApJZzqhuZMx7JtUF18KX">
             <p:NodeReference LastCategoryFullName="Collections.Spread" LastDependency="VL.CoreLib.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="CircleSpread" />
@@ -116,7 +116,7 @@
             <Pin Id="RC1AZwfdcKiOfgKFGSJbRa" Name="Count" Kind="InputPin" DefaultValue="9" />
             <Pin Id="CWfMal8H6pONBUDVk7SCHq" Name="Output" Kind="OutputPin" />
           </Node>
-          <Pad Id="FzqVCx9Qgz5LBbaGkeoNmN" Comment="Hole" Bounds="405,461,40,49" ShowValueBox="true" isIOBox="true" Value="False, False">
+          <Pad Id="FzqVCx9Qgz5LBbaGkeoNmN" Comment="Hole" Bounds="514,398,40,49" ShowValueBox="true" isIOBox="true" Value="False, False">
             <p:TypeAnnotation LastCategoryFullName="Collections" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="Spread" />
               <p:TypeArguments>
@@ -135,7 +135,7 @@
             <Pin Id="BrUW9MCaawuQLLRzJFZP6p" Name="Input" Kind="InputPin" />
             <Pin Id="KLAzuiqPqoFNGoh0IMCuvD" Name="Result" Kind="OutputPin" />
           </Node>
-          <Pad Id="KxjdnWo1SCwQdOKgzNW2Zq" Comment="Use Smooting" Bounds="503,402,35,35" ShowValueBox="true" isIOBox="true" Value="False">
+          <Pad Id="KxjdnWo1SCwQdOKgzNW2Zq" Comment="Use Smooting" Bounds="612,339,35,35" ShowValueBox="true" isIOBox="true" Value="False">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="ImmutableTypeFlag" Name="Boolean" />
             </p:TypeAnnotation>
@@ -257,7 +257,7 @@
             <Pin Id="VAKKPJfNsrML28yfOSZzkH" Name="Maximum Areas" Kind="InputPin" />
             <Pin Id="G9xEQDVoYqSOg1uqfJfntA" Name="Output" Kind="StateOutputPin" />
           </Node>
-          <Node Bounds="1652,329,199,568" Id="VeRcKNfzffXQLhtuT2i1zM">
+          <Node Bounds="1664,344,199,568" Id="VeRcKNfzffXQLhtuT2i1zM">
             <p:NodeReference LastCategoryFullName="Primitive" LastDependency="Builtin">
               <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
               <CategoryReference Kind="Category" Name="Primitive" />
@@ -267,7 +267,7 @@
             <Patch Id="LDHm8qoIJp6MhnHyKIiPS4" ManuallySortedPins="true">
               <Patch Id="NRjIz1aQcjaPcRJ5WO2aKn" Name="Create" ManuallySortedPins="true" />
               <Patch Id="DCkJ1sTpqi0OfNumWsnxaz" Name="Then" ManuallySortedPins="true" />
-              <Node Bounds="1675,353,72,26" Id="IEpc9DoVWRYPfE7Pjgy5mL">
+              <Node Bounds="1687,368,72,26" Id="IEpc9DoVWRYPfE7Pjgy5mL">
                 <p:NodeReference LastCategoryFullName="2D.Geometry.Triangulation.Polygon" LastDependency="VL.Triangle.vl">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <CategoryReference Kind="Category" Name="2D" />
@@ -280,7 +280,7 @@
                 <Pin Id="TvYw27hWxg9OOKfBNOEiAe" Name="Input" Kind="InputPin" />
                 <Pin Id="J4lan3ODXRmP0gHirbhHaA" Name="Output" Kind="StateOutputPin" />
               </Node>
-              <Node Bounds="1762,352,76,26" Id="RRTUbFEoFldMzmhoL5T4d1">
+              <Node Bounds="1774,367,76,26" Id="RRTUbFEoFldMzmhoL5T4d1">
                 <p:NodeReference LastCategoryFullName="2D.Geometry.Triangulation.Polygon" LastDependency="VL.Triangle.vl">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <Choice Kind="OperationCallFlag" Name="AddContours" />
@@ -289,7 +289,7 @@
                 <Pin Id="RWlmeSPu0LTOddoopw5OM1" Name="Input" Kind="InputPin" />
                 <Pin Id="VOq6Rf2ZLlrQc9BquWgYEg" Name="Output" Kind="StateOutputPin" />
               </Node>
-              <Node Bounds="1673,417,58,26" Id="Uiv83l1KmGhNexw7wFhleQ">
+              <Node Bounds="1685,432,58,26" Id="Uiv83l1KmGhNexw7wFhleQ">
                 <p:NodeReference LastCategoryFullName="2D.Geometry.Triangulation.Polygon" LastDependency="VL.Triangle.vl">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <Choice Kind="OperationCallFlag" Name="AddPoint" />
@@ -298,7 +298,7 @@
                 <Pin Id="LS71uNyyvS6PM2hCPOuR66" Name="Input" Kind="InputPin" />
                 <Pin Id="GQSvFbjiiZrLfD6ACZUxRh" Name="Output" Kind="StateOutputPin" />
               </Node>
-              <Node Bounds="1764,415,62,26" Id="D9ijDqWYrYvN9m7RAH4pBc">
+              <Node Bounds="1776,430,62,26" Id="D9ijDqWYrYvN9m7RAH4pBc">
                 <p:NodeReference LastCategoryFullName="2D.Geometry.Triangulation.Polygon" LastDependency="VL.Triangle.vl">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <Choice Kind="OperationCallFlag" Name="AddPoints" />
@@ -307,7 +307,7 @@
                 <Pin Id="QAwftpXVAHrLyPJFLridGo" Name="Input" Kind="InputPin" />
                 <Pin Id="VpfmmLQM5sDLyW2aXDetf6" Name="Output" Kind="StateOutputPin" />
               </Node>
-              <Node Bounds="1674,384,74,26" Id="G04rkrHNGpSMYXWUbZiQrm">
+              <Node Bounds="1686,399,74,26" Id="G04rkrHNGpSMYXWUbZiQrm">
                 <p:NodeReference LastCategoryFullName="2D.Geometry.Triangulation.Polygon" LastDependency="VL.Triangle.vl">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <Choice Kind="OperationCallFlag" Name="AddSegment" />
@@ -316,7 +316,7 @@
                 <Pin Id="VefCIaxA1faQSh7XWmWGpg" Name="Input" Kind="InputPin" />
                 <Pin Id="B6A4KeeXNl4PnrZnhCfiAe" Name="Output" Kind="StateOutputPin" />
               </Node>
-              <Node Bounds="1760,383,79,26" Id="BtlGgenl2gsOsgYvHVVgdX">
+              <Node Bounds="1772,398,79,26" Id="BtlGgenl2gsOsgYvHVVgdX">
                 <p:NodeReference LastCategoryFullName="2D.Geometry.Triangulation.Polygon" LastDependency="VL.Triangle.vl">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <Choice Kind="OperationCallFlag" Name="AddSegments" />
@@ -325,7 +325,7 @@
                 <Pin Id="H9WG8G4NGP7Ls2wmqbTnx9" Name="Input" Kind="InputPin" />
                 <Pin Id="UDBuAqASejrOCflLvA8fiU" Name="Output" Kind="StateOutputPin" />
               </Node>
-              <Node Bounds="1673,451,69,26" Id="LX1HmMZk6WiM9gVxIeA8ZM">
+              <Node Bounds="1685,466,69,26" Id="LX1HmMZk6WiM9gVxIeA8ZM">
                 <p:NodeReference LastCategoryFullName="2D.Geometry.Triangulation.Polygon" LastDependency="VL.Triangle.vl">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <Choice Kind="OperationCallFlag" Name="TagRegions" />
@@ -334,7 +334,7 @@
                 <Pin Id="Qo8C3TocVD8NhNXgmdWIa9" Name="Input" Kind="InputPin" />
                 <Pin Id="PzjbsmpoWDrNlDRJpIxoJi" Name="Output" Kind="StateOutputPin" />
               </Node>
-              <Node Bounds="1670,520,68,26" Id="BLfLZVWwMIgNyCYH9oIFJE">
+              <Node Bounds="1682,535,68,26" Id="BLfLZVWwMIgNyCYH9oIFJE">
                 <p:NodeReference LastCategoryFullName="2D.Geometry.Triangulation.Mesh" LastDependency="VL.Triangle.vl">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <CategoryReference Kind="ClassType" Name="Mesh" NeedsToBeDirectParent="true">
@@ -348,7 +348,7 @@
                 <Pin Id="OJqEukarBITPKTAKJZAvI6" Name="Quality" Kind="InputPin" />
                 <Pin Id="BpE5nHRVnP6QRLF4cpZBOf" Name="Output" Kind="StateOutputPin" />
               </Node>
-              <Node Bounds="1668,603,63,26" Id="PUgCupNdDH9NIelo4gfcSO">
+              <Node Bounds="1680,618,63,26" Id="PUgCupNdDH9NIelo4gfcSO">
                 <p:NodeReference LastCategoryFullName="2D.Geometry.Triangulation.Mesh" LastDependency="VL.Triangle.vl">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <CategoryReference Kind="ClassType" Name="Mesh" NeedsToBeDirectParent="true">
@@ -359,7 +359,7 @@
                 <Pin Id="T13vsRikqiDOyY36QJ95xx" Name="Input" Kind="StateInputPin" />
                 <Pin Id="BS5iBHaf1OMPwoXujKxvmY" Name="Output" Kind="StateOutputPin" />
               </Node>
-              <Node Bounds="1664,851,125,26" Id="OVRL7TeTEVBMMp7BxgxAIS">
+              <Node Bounds="1676,866,125,26" Id="OVRL7TeTEVBMMp7BxgxAIS">
                 <p:NodeReference LastCategoryFullName="2D.Geometry.Triangulation.Mesh" LastDependency="VL.Triangle.vl">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <CategoryReference Kind="ClassType" Name="Mesh" NeedsToBeDirectParent="true">
@@ -376,7 +376,7 @@
                 <Pin Id="K8Bx4LjJzvUQcngQOwb4CV" Name="IDs" Kind="OutputPin" />
                 <Pin Id="CaJkSMPeDiCLqibALSSsB6" Name="Region IDs" Kind="OutputPin" />
               </Node>
-              <Node Bounds="1667,722,50,26" Id="KGF1fu4sZZ8Oz3jy4XaBHs">
+              <Node Bounds="1679,737,50,26" Id="KGF1fu4sZZ8Oz3jy4XaBHs">
                 <p:NodeReference LastCategoryFullName="2D.Geometry.Triangulation.Mesh" LastDependency="VL.Triangle.vl">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <Choice Kind="OperationCallFlag" Name="Unpack" />
@@ -385,7 +385,7 @@
                 <Pin Id="QCzhOHU06GmMh8V4wZMY75" Name="Z" Kind="InputPin" />
                 <Pin Id="Jgh0uhGjFnZPO66raDPBmF" Name="Output" Kind="StateOutputPin" />
               </Node>
-              <Node Bounds="1667,765,74,26" Id="TesAGu43XWOM435Zklsyvj">
+              <Node Bounds="1679,780,74,26" Id="TesAGu43XWOM435Zklsyvj">
                 <p:NodeReference LastCategoryFullName="2D.Geometry.Triangulation.Mesh" LastDependency="VL.Triangle.vl">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <Choice Kind="OperationCallFlag" Name="GenerateUVs" />
@@ -393,7 +393,7 @@
                 <Pin Id="IQslwxW8rXqO10OC6rwj9m" Name="Input" Kind="StateInputPin" />
                 <Pin Id="LwmTq6CRNoSMPvL2cnMurm" Name="Output" Kind="StateOutputPin" />
               </Node>
-              <Node Bounds="1667,681,51,26" Id="A00qsSNBGK0PqLYj1QN460">
+              <Node Bounds="1679,696,51,26" Id="A00qsSNBGK0PqLYj1QN460">
                 <p:NodeReference LastCategoryFullName="2D.Geometry.Triangulation.Mesh" LastDependency="VL.Triangle.vl">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <CategoryReference Kind="ClassType" Name="Mesh" NeedsToBeDirectParent="true">
@@ -405,7 +405,7 @@
                 <Pin Id="AQBh8frhZ4KOeDWeksGXT4" Name="Input" Kind="InputPin" />
                 <Pin Id="FcICU0MvqL0MvdJhZZu2fn" Name="Output" Kind="StateOutputPin" />
               </Node>
-              <Node Bounds="1665,804,82,26" Id="GwlEsewUFz9Pz0IKIKH4UC">
+              <Node Bounds="1677,819,82,26" Id="GwlEsewUFz9Pz0IKIKH4UC">
                 <p:NodeReference LastCategoryFullName="2D.Geometry.Triangulation.Mesh" LastDependency="VL.Triangle.vl">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <Choice Kind="OperationCallFlag" Name="GetStrideMesh" />
@@ -414,7 +414,7 @@
                 <Pin Id="AixpgdK3ocaLIXVUJ55p7w" Name="State Output" Kind="StateOutputPin" />
                 <Pin Id="UOPTFLbvjEnPTaoHXjVxoh" Name="Output" Kind="OutputPin" />
               </Node>
-              <Node Bounds="1667,643,108,26" Id="Die7ZFflZ5rNd7eaMVlTd3">
+              <Node Bounds="1679,658,108,26" Id="Die7ZFflZ5rNd7eaMVlTd3">
                 <p:NodeReference LastCategoryFullName="2D.Geometry.Triangulation.Mesh" LastDependency="VL.Triangle.vl">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <Choice Kind="OperationCallFlag" Name="RefineRegionQuality" />
@@ -435,7 +435,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="TtbHyRUB8yoLdoDHmOWMth" Bounds="2104,207,86,26" ShowValueBox="true" isIOBox="true" Value="Internal">
+          <Pad Id="TtbHyRUB8yoLdoDHmOWMth" Bounds="2219,203,86,26" ShowValueBox="true" isIOBox="true" Value="Internal">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -444,7 +444,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Node Bounds="664,555,65,19" Id="PmYfE4Sq7plPYKyBoyXWNo">
+          <Node Bounds="773,492,65,19" Id="PmYfE4Sq7plPYKyBoyXWNo">
             <p:NodeReference LastCategoryFullName="2D.Geometry.Triangulation" LastDependency="VL.Triangle.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="Regions" />
@@ -455,7 +455,7 @@
             <Pin Id="HvoipBfHUQ9QbcCsKDUX3i" Name="Maximum Areas" Kind="InputPin" />
             <Pin Id="N8jysiByuqpLPL5E9a03ju" Name="Output" Kind="OutputPin" />
           </Node>
-          <Pad Id="TxqM1zFneYFPXuejG8fsTk" Comment="Maximum Area" Bounds="728,516,65,34" ShowValueBox="true" isIOBox="true" Value="0.0008">
+          <Pad Id="TxqM1zFneYFPXuejG8fsTk" Comment="Maximum Area" Bounds="837,453,65,34" ShowValueBox="true" isIOBox="true" Value="0.0008">
             <p:TypeAnnotation LastCategoryFullName="Collections" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="Spread" />
               <p:TypeArguments>
@@ -469,7 +469,7 @@
               <p:stepsize p:Type="Single">0.001</p:stepsize>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="JOrLZH6wlkBMYYCRszGBs8" Comment="Region Indicator" Bounds="667,439,57,34" ShowValueBox="true" isIOBox="true">
+          <Pad Id="JOrLZH6wlkBMYYCRszGBs8" Comment="Region Indicator" Bounds="776,376,57,34" ShowValueBox="true" isIOBox="true">
             <p:TypeAnnotation LastCategoryFullName="Collections" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="Spread" />
               <p:TypeArguments>
@@ -482,7 +482,7 @@
               <Item>0.03, 0.03</Item>
             </p:Value>
           </Pad>
-          <Pad Id="CZkuIUyGGDAMbtdJIWej9v" Comment="Region ID" Bounds="695,477,35,34" ShowValueBox="true" isIOBox="true" Value="1">
+          <Pad Id="CZkuIUyGGDAMbtdJIWej9v" Comment="Region ID" Bounds="804,414,35,34" ShowValueBox="true" isIOBox="true" Value="1">
             <p:TypeAnnotation LastCategoryFullName="Collections" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="Spread" />
               <p:TypeArguments>
@@ -492,7 +492,7 @@
               </p:TypeArguments>
             </p:TypeAnnotation>
           </Pad>
-          <Pad Id="JU4BwqU2nsvQaArMvwYxny" Comment="MaximumArea" Bounds="500,525,53,15" ShowValueBox="true" isIOBox="true" Value="0.021">
+          <Pad Id="JU4BwqU2nsvQaArMvwYxny" Comment="MaximumArea" Bounds="609,462,53,15" ShowValueBox="true" isIOBox="true" Value="0.021">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="Float32" />
             </p:TypeAnnotation>
@@ -501,7 +501,7 @@
               <p:stepsize p:Type="Single">0.001</p:stepsize>
             </p:ValueBoxSettings>
           </Pad>
-          <Node Bounds="225,1061,63,19" Id="DjkWVfdsCisPtwrk81gVfZ">
+          <Node Bounds="335,918,63,19" Id="DjkWVfdsCisPtwrk81gVfZ">
             <p:NodeReference LastCategoryFullName="Stride" LastDependency="VL.Stride.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <CategoryReference Kind="Category" Name="Stride" NeedsToBeDirectParent="true" />
@@ -514,7 +514,7 @@
             <Pin Id="JpWbRJCGvQeLdzmU4y5RkH" Name="Enabled" Kind="InputPin" />
             <Pin Id="Ql1vtoInvvfMSCbzQ4sCpF" Name="Output" Kind="OutputPin" />
           </Node>
-          <Node Bounds="273,1001,185,19" Id="J7Wq6tzrihKM8UKQuCxPUF">
+          <Node Bounds="383,858,185,19" Id="J7Wq6tzrihKM8UKQuCxPUF">
             <p:NodeReference LastCategoryFullName="Stride.Lights" LastDependency="VL.Stride.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="DirectionalLight" />
@@ -533,14 +533,14 @@
             <Pin Id="DsUSNfoLvxqN7JF8qWpzRR" Name="Show Helper" Kind="InputPin" IsHidden="true" />
             <Pin Id="RI5Wt3wIzigLXJaVzqWDHo" Name="Entity" Kind="OutputPin" />
           </Node>
-          <Node Bounds="287,904,63,19" Id="I6ZgzK39wSnNlxx2DQk8SB">
+          <Node Bounds="397,761,63,19" Id="I6ZgzK39wSnNlxx2DQk8SB">
             <p:NodeReference LastCategoryFullName="Stride.API.Graphics.RasterizerStateDescription" LastDependency="VL.Stride.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="OperationCallFlag" Name="Wireframe" />
             </p:NodeReference>
             <Pin Id="EDfKg9azQKzNMwwf9ZH7dZ" Name="Wireframe" Kind="OutputPin" />
           </Node>
-          <Node Bounds="247,936,165,19" Id="TpPGpvhyB7YNtB8l2qLzTO">
+          <Node Bounds="357,793,165,19" Id="TpPGpvhyB7YNtB8l2qLzTO">
             <p:NodeReference LastCategoryFullName="Stride.Rendering" LastDependency="VL.Stride.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="MeshRenderer" />
@@ -557,7 +557,7 @@
             <Pin Id="Thm3Mjb4eHOPISkzSvysCF" Name="Draw Count" Kind="InputPin" />
             <Pin Id="E6eE8xzqmYePEtQjqHF5mn" Name="Output" Kind="StateOutputPin" />
           </Node>
-          <Node Bounds="227,971,165,19" Id="KEAXW24OpieN25LxM8eGTU">
+          <Node Bounds="337,828,165,19" Id="KEAXW24OpieN25LxM8eGTU">
             <p:NodeReference LastCategoryFullName="Stride.Rendering" LastDependency="VL.Stride.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="RenderEntity" />
@@ -574,7 +574,7 @@
             <Pin Id="NsZYncuqdIUN4Wh879kCBM" Name="Enabled" Kind="InputPin" />
             <Pin Id="NekgMs0tAD7MY3wCR0lQkc" Name="Output" Kind="OutputPin" />
           </Node>
-          <Node Bounds="300,824,67,19" Id="HMk0G8C3S8MPAweCykG6Sg">
+          <Node Bounds="410,681,67,19" Id="HMk0G8C3S8MPAweCykG6Sg">
             <p:NodeReference LastCategoryFullName="3D.Matrix" LastDependency="VL.CoreLib.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="OperationCallFlag" Name="Translation" />
@@ -582,12 +582,12 @@
             <Pin Id="Tj6dvPCZrw8MdCx0Qsb3SD" Name="Translation" Kind="InputPin" />
             <Pin Id="Cc8j9UKwaOYNpOFCHUgplV" Name="Result" Kind="OutputPin" />
           </Node>
-          <Pad Id="A3VwNJsvC06MQBIaC4hLlE" Comment="Translation" Bounds="302,770,35,43" ShowValueBox="true" isIOBox="true" Value="0, -0.15, 0">
+          <Pad Id="A3VwNJsvC06MQBIaC4hLlE" Comment="Translation" Bounds="412,627,35,43" ShowValueBox="true" isIOBox="true" Value="0, -0.15, 0">
             <p:TypeAnnotation LastCategoryFullName="3D" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="Vector3" />
             </p:TypeAnnotation>
           </Pad>
-          <Node Bounds="247,872,112,19" Id="EZIDWLXbQ02LZJnYzeZQC8">
+          <Node Bounds="357,729,112,19" Id="EZIDWLXbQ02LZJnYzeZQC8">
             <p:NodeReference LastCategoryFullName="Stride.Rendering.DrawShaders" LastDependency="VL.Stride.Rendering.EffectShaderNodes">
               <Choice Kind="ProcessNode" Name="ConstantColorShader" />
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
@@ -597,7 +597,7 @@
             <Pin Id="Q70XnNScy0DOSW5uTFmQHR" Name="Parameter Setter" Kind="InputPin" />
             <Pin Id="FKZKPY8RIZmMASRxg1IFT6" Name="Output" Kind="OutputPin" />
           </Node>
-          <Pad Id="SWLuRgbFtslPV7jEhMpctm" Comment="Phase" Bounds="383,360,79,15" ShowValueBox="true" isIOBox="true" Value="-0.0833">
+          <Pad Id="SWLuRgbFtslPV7jEhMpctm" Comment="Phase" Bounds="492,297,79,15" ShowValueBox="true" isIOBox="true" Value="-0.0833">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="Float32" />
             </p:TypeAnnotation>
@@ -606,7 +606,7 @@
               <p:stepsize p:Type="Single">0.001</p:stepsize>
             </p:ValueBoxSettings>
           </Pad>
-          <Node Bounds="324,617,82,19" Id="PfDwVI0JDY6MlBGOagcsIc">
+          <Node Bounds="433,554,82,19" Id="PfDwVI0JDY6MlBGOagcsIc">
             <p:NodeReference LastCategoryFullName="2D.Geometry.Triangulation" LastDependency="VL.Triangle.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="GetStrideMesh" />
@@ -615,7 +615,7 @@
             <Pin Id="Ba3GiI5rxLkNF1f6UxuEEI" Name="Input" Kind="InputPin" />
             <Pin Id="QjbNhRpdx60MbBh4kJV7W8" Name="Output" Kind="OutputPin" />
           </Node>
-          <Node Bounds="228,1104,205,19" Id="GTUzJMluaHHL5RfNFdS3ZZ">
+          <Node Bounds="338,961,205,19" Id="GTUzJMluaHHL5RfNFdS3ZZ">
             <p:NodeReference LastCategoryFullName="Stride" LastDependency="VL.Stride.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="SceneWindow" />
@@ -700,7 +700,7 @@
             <Pin Id="IbfLd7AvFaGQc8rUfHSoZo" Name="Input" Kind="InputPin" />
             <Pin Id="A36SYyDzUr4Ox7cbioycy0" Name="Output" Kind="OutputPin" />
           </Node>
-          <Pad Id="QcngNTZpj4GMDUF6WMy88z" Bounds="1649,249,244,78" ShowValueBox="true" isIOBox="true" Value="These are the building blocks of the nodes on the left. Use these if you want to  change the behaviour of the provided nodeset.">
+          <Pad Id="QcngNTZpj4GMDUF6WMy88z" Bounds="1649,249,405,85" ShowValueBox="true" isIOBox="true" Value="These are the building blocks of the nodes on the left. Use/extend these if you want to change the behaviour of the provided nodeset.&#xD;&#xA;Note that for most of these there is a certain order of operations...look inside Triangulate node to see their intended use.">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -709,7 +709,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="QqX715XzL8aPaGTf0rl7tJ" Bounds="2101,240,303,75" ShowValueBox="true" isIOBox="true" Value="The original TriangleNET library. There's a lot of functions to explore, below are some interesting ones. If you build nodes around these functions, consider contributing them to this nuget!">
+          <Pad Id="QqX715XzL8aPaGTf0rl7tJ" Bounds="2218,247,303,75" ShowValueBox="true" isIOBox="true" Value="The original TriangleNET library. There's a lot of functions to explore, below are some interesting ones. If you build nodes around these functions, consider contributing them to this nuget!">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
