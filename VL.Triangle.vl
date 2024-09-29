@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" xmlns:r="reflection" Id="FcRmiAJGzO6PfS1rdXRrdX" Authors="digitalWannabe" LanguageVersion="2024.6.0-0005-g1877f91137" Version="0.128">
-  <NugetDependency Id="LGMG7ppBrrDMYbe93Iozdc" Location="VL.CoreLib" Version="2024.6.0-0005-g1877f91137" />
+<Document xmlns:p="property" xmlns:r="reflection" Id="L6dE23ynRziLz26ac9rQZw" Authors="digitalWannabe" LanguageVersion="2024.6.7-0127-g8093c79f80" Version="0.128">
+  <NugetDependency Id="LGMG7ppBrrDMYbe93Iozdc" Location="VL.CoreLib" Version="2024.6.7-0127-g8093c79f80" />
   <Patch Id="OgjtF5CQxiKLdqtM9qY9G6">
     <Canvas Id="MjaOtyVofLNLcmRtmAdeIK" DefaultCategory="2D.Geometry.Triangulation" CanvasType="FullCategory">
       <!--
@@ -415,7 +415,7 @@
                     <Choice Kind="ProcessStatefulRegion" Name="Cache" />
                   </p:NodeReference>
                   <Pin Id="GCkBI7VDSGuNGttmDJyr0P" Name="Force" Kind="InputPin" />
-                  <Pin Id="RlMZYM7w5h4NTuKE1jLBcW" Name="Dispose Cached Outputs" Kind="InputPin" />
+                  <Pin Id="RlMZYM7w5h4NTuKE1jLBcW" Name="Dispose Cached Outputs" Kind="InputPin" DefaultValue="True" />
                   <Pin Id="V5y8Bpjo6y5NJkzx9vU7ey" Name="Has Changed" Kind="OutputPin" />
                   <ControlPoint Id="SPLMPrJzOHBLkqVenxnWhV" Bounds="1067,402" Alignment="Top" />
                   <ControlPoint Id="LYrfhnrmCkkPrMHbQupmdP" Bounds="896,402" Alignment="Top" />
@@ -558,6 +558,7 @@
                     </Node>
                   </Patch>
                 </Node>
+                <Patch Id="EzzmjqY3CxdQcjzZdXcyql" Name="Dispose" />
               </Patch>
               <Pin Id="AZt4NF29BI4MEFFVuV9JLk" Name="Node Context" Kind="InputPin" IsHidden="true" />
               <Pin Id="RwtuGGTa5VzM0uReokEFDm" Name="User Exceptions Channel" Kind="InputPin" IsHidden="true" />
@@ -660,7 +661,7 @@
                 <Choice Kind="ProcessStatefulRegion" Name="Cache" />
               </p:NodeReference>
               <Pin Id="HNPNsxvSWRNO6f3H3QTW89" Name="Force" Kind="InputPin" />
-              <Pin Id="FBWYGOdVAFlLpHR1m143mO" Name="Dispose Cached Outputs" Kind="InputPin" />
+              <Pin Id="FBWYGOdVAFlLpHR1m143mO" Name="Dispose Cached Outputs" Kind="InputPin" DefaultValue="True" />
               <Pin Id="GnQsEEen2RnOkvhErRRCZB" Name="Has Changed" Kind="OutputPin" />
               <ControlPoint Id="IcoNMLV8Q7qL2Yv7m2fWdP" Bounds="628,142" Alignment="Top" />
               <ControlPoint Id="T8hlVnfwNDDMvGBJUFYWiz" Bounds="656,142" Alignment="Top" />
@@ -821,7 +822,7 @@
                 <Choice Kind="ProcessStatefulRegion" Name="Cache" />
               </p:NodeReference>
               <Pin Id="TpeuQCUUDoyLciyut7i7WX" Name="Force" Kind="InputPin" />
-              <Pin Id="TzUIiL088LyL3lvPJy8sCu" Name="Dispose Cached Outputs" Kind="InputPin" />
+              <Pin Id="TzUIiL088LyL3lvPJy8sCu" Name="Dispose Cached Outputs" Kind="InputPin" DefaultValue="True" />
               <Pin Id="HKetQamKzyIOY0X6jxTJ0n" Name="Has Changed" Kind="OutputPin" />
               <ControlPoint Id="LNlTD9iMU4EMdmFLSaSMti" Bounds="555,408" Alignment="Bottom" />
               <ControlPoint Id="NWmed6FGItjOfdEywOHfKS" Bounds="600,266" Alignment="Top" />
@@ -1101,7 +1102,7 @@
                 <Choice Kind="ProcessStatefulRegion" Name="Cache" />
               </p:NodeReference>
               <Pin Id="CjtHIkY6zwmPmgqCGzHxqE" Name="Force" Kind="InputPin" />
-              <Pin Id="EUuftQ0LamIPhYG60XJyM3" Name="Dispose Cached Outputs" Kind="InputPin" />
+              <Pin Id="EUuftQ0LamIPhYG60XJyM3" Name="Dispose Cached Outputs" Kind="InputPin" DefaultValue="True" />
               <Pin Id="EXprDY53OlJObqNfCyCNcB" Name="Has Changed" Kind="OutputPin" />
               <ControlPoint Id="QM6lZXcRUw8L434fdddlgr" Bounds="550,206" Alignment="Top" />
               <ControlPoint Id="TK13CgNbnPKPq6QeyEgTpr" Bounds="570,206" Alignment="Top" />
@@ -2761,6 +2762,7 @@
                       <Pin Id="RBwzfqrdmYZMFhezuMwxlp" Name="Output" Kind="OutputPin" />
                       <Pin Id="LsdqsOeh6NhMUa77naIjJF" Name="Triangles" Kind="OutputPin" />
                     </Node>
+                    <Patch Id="UHF9gdnPdUnLhsIrpFlyB7" Name="Dispose" />
                   </Patch>
                   <Pin Id="RS4Mw4WOYxdMuDH2Z8NhIi" Name="Node Context" Kind="InputPin" IsHidden="true" />
                 </Node>
@@ -2808,7 +2810,7 @@
                     <Choice Kind="OperationCallFlag" Name="Label" />
                   </p:NodeReference>
                   <Pin Id="ItSgMC6zeENMizrFKmcniF" Name="Input" Kind="StateInputPin" />
-                  <Pin Id="V5wWgHhna9jNqD9mQLwY9n" Name="Output" Kind="OutputPin" IsHidden="true" />
+                  <Pin Id="V5wWgHhna9jNqD9mQLwY9n" Name="Output" Kind="OutputPin" />
                   <Pin Id="G6882G5i5l1PGTWgZesDvZ" Name="Label" Kind="OutputPin" />
                 </Node>
                 <Node Bounds="2111,395,56,26" Id="FlkLlX9pnVzMW7vDB651u5">
@@ -3675,7 +3677,7 @@
                 <Choice Kind="ProcessStatefulRegion" Name="Cache" />
               </p:NodeReference>
               <Pin Id="NdFQ0OYFWusQY5UJ6g7CXc" Name="Force" Kind="InputPin" />
-              <Pin Id="PqciBl8JKAIMrj8OL0a3j6" Name="Dispose Cached Outputs" Kind="InputPin" />
+              <Pin Id="PqciBl8JKAIMrj8OL0a3j6" Name="Dispose Cached Outputs" Kind="InputPin" DefaultValue="True" />
               <Pin Id="QO1J1UV5N20OY4drD2b22t" Name="Has Changed" Kind="OutputPin" />
               <ControlPoint Id="TRsnZCIPGK2M4RYiorEHwG" Bounds="516,315" Alignment="Top" />
               <ControlPoint Id="QiB71p8A6c3NtSDSYv7Vwm" Bounds="494,464" Alignment="Bottom" />
@@ -3820,7 +3822,7 @@
                     <Choice Kind="ProcessStatefulRegion" Name="Cache" />
                   </p:NodeReference>
                   <Pin Id="F0ReudNltx1NjDGWs1SaDk" Name="Force" Kind="InputPin" />
-                  <Pin Id="MyONgqj4IF6MIHYb8IEKLW" Name="Dispose Cached Outputs" Kind="InputPin" />
+                  <Pin Id="MyONgqj4IF6MIHYb8IEKLW" Name="Dispose Cached Outputs" Kind="InputPin" DefaultValue="True" />
                   <Pin Id="B6sdIiJdCJvMEfSoCJAKIJ" Name="Has Changed" Kind="OutputPin" />
                   <ControlPoint Id="U4NCEd1l6YJPJmfQSsm3Mr" Bounds="245,168" Alignment="Top" />
                   <ControlPoint Id="Ud0xhz0BIOyNOeLlrZeevS" Bounds="337,168" Alignment="Top" />
@@ -3845,6 +3847,7 @@
                     </Node>
                   </Patch>
                 </Node>
+                <Patch Id="QnbmP22O0vsPmhpTh9F9Ry" Name="Dispose" />
               </Patch>
               <Pin Id="SFO8ncYyH97NlloPgPwj5o" Name="Node Context" Kind="InputPin" IsHidden="true" />
               <Pin Id="CDhcGva8KoXPA6P7ipR8ih" Name="User Exceptions Channel" Kind="InputPin" IsHidden="true" />
@@ -3904,7 +3907,7 @@
                 <Choice Kind="ProcessStatefulRegion" Name="Cache" />
               </p:NodeReference>
               <Pin Id="Tedgif4ZwuENKoiKYz3bW1" Name="Force" Kind="InputPin" />
-              <Pin Id="Frj5lVS71pcQFQ9KcNfI3x" Name="Dispose Cached Outputs" Kind="InputPin" />
+              <Pin Id="Frj5lVS71pcQFQ9KcNfI3x" Name="Dispose Cached Outputs" Kind="InputPin" DefaultValue="True" />
               <Pin Id="MwFUeeCmW2qQGy9n2rVL7m" Name="Has Changed" Kind="OutputPin" />
               <ControlPoint Id="PJkKDmBQz9sOrQ6nUaapo8" Bounds="402,224" Alignment="Top" />
               <ControlPoint Id="Im0AisFi6p1MXnmZuZAuud" Bounds="461,300" Alignment="Bottom" />
@@ -4005,7 +4008,7 @@
                 <Choice Kind="ProcessStatefulRegion" Name="Cache" />
               </p:NodeReference>
               <Pin Id="S0woDakiTV0Pryk97QiMN3" Name="Force" Kind="InputPin" DefaultValue="False" />
-              <Pin Id="O1sY0KgfltGNB1iZQbBkXr" Name="Dispose Cached Outputs" Kind="InputPin" />
+              <Pin Id="O1sY0KgfltGNB1iZQbBkXr" Name="Dispose Cached Outputs" Kind="InputPin" DefaultValue="True" />
               <Pin Id="EcKS846nPbhP2UJ0bZpkJP" Name="Has Changed" Kind="OutputPin" />
               <Patch Id="U8sisXw38k7LSGLQzmr2gP" ManuallySortedPins="true">
                 <Patch Id="H0AplXNuUbtMFAYQh7ql4R" Name="Create" ManuallySortedPins="true" />
@@ -4064,6 +4067,6 @@
     </Node>
   </Patch>
   <PlatformDependency Id="IrFifY2U1lANlxyr2AWvlk" Location="./lib/Triangle.dll" IsForward="true" />
-  <NugetDependency Id="QswGmKZ1NpCNzSUmb8L5Dt" Location="VL.Stride" Version="2024.6.0-0005-g1877f91137" />
-  <NugetDependency Id="I7OsZsUHdhSMijxQeXeI4x" Location="VL.Stride.TextureFX" Version="2024.6.0-0005-g1877f91137" />
+  <NugetDependency Id="QswGmKZ1NpCNzSUmb8L5Dt" Location="VL.Stride" Version="2024.6.7-0127-g8093c79f80" />
+  <NugetDependency Id="I7OsZsUHdhSMijxQeXeI4x" Location="VL.Stride.TextureFX" Version="2024.6.7-0127-g8093c79f80" />
 </Document>
