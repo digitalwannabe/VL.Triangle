@@ -3,7 +3,7 @@
     <metadata>
         <!-- Required elements-->
         <id>VL.Triangle</id>
-        <version>1.0.6-alpha</version>
+        <version>1.0.7-alpha</version>
         <description>Delaunay Triangulation for VL using TriangleNET</description>
         <authors>digital.wannabe</authors>
         <license type="expression">MIT</license>
