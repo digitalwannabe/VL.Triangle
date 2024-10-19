@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" xmlns:r="reflection" Id="L6dE23ynRziLz26ac9rQZw" Authors="digitalWannabe" LanguageVersion="2024.6.7-0185-g7d063e105d" Version="0.128">
+<Document xmlns:p="property" xmlns:r="reflection" Id="HZqrVP5eG8qPe0YKCuprgi" Authors="digitalWannabe" LanguageVersion="2024.6.7-0185-g7d063e105d" Version="0.128">
   <NugetDependency Id="LGMG7ppBrrDMYbe93Iozdc" Location="VL.CoreLib" Version="2024.6.7-0185-g7d063e105d" />
   <Patch Id="OgjtF5CQxiKLdqtM9qY9G6">
     <Canvas Id="MjaOtyVofLNLcmRtmAdeIK" DefaultCategory="2D.Geometry.Triangulation" CanvasType="FullCategory">
@@ -2033,7 +2033,7 @@
               </Patch>
               <ControlPoint Id="UvefKXHlIbzOGEsPsqJ2sh" Bounds="1412,464" Alignment="Bottom" />
             </Node>
-            <ControlPoint Id="U5KbSdIXODsLJuHjpNh753" Bounds="1380,595" />
+            <ControlPoint Id="U5KbSdIXODsLJuHjpNh753" Bounds="1295,591" />
             <Node Bounds="1506,263,53,26" Id="Jbha7n8YhcbMliQOKQkZQd">
               <p:NodeReference LastCategoryFullName="TriangleNet.Meshing.IMesh" LastDependency="Triangle.dll">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
@@ -2291,7 +2291,7 @@
               <p:Value />
             </Pad>
             <Pad Id="C1X0Jb9AycML9cIF2M4Pk3" SlotId="PEXq0D7I1J4MgXWeucVXUf" Bounds="1707,580" Value="" />
-            <Pad Id="IZyyklol8CnNs4N8kqJs0w" SlotId="EO1qe7fFBinNmnfomhG7is" Bounds="1380,567" Value="" />
+            <Pad Id="IZyyklol8CnNs4N8kqJs0w" SlotId="EO1qe7fFBinNmnfomhG7is" Bounds="1295,563" Value="" />
             <Pad Id="CFP1hd0LobROmCCfOAGU1m" SlotId="NYVsaUmJy3PNopa4h5EZiT" Bounds="1537,562">
               <p:Value />
             </Pad>
@@ -3197,6 +3197,15 @@
                 <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
               </p:ValueBoxSettings>
             </Pad>
+            <Node Bounds="1291,516,51,26" Id="DVLwuWoi96QQSRsHjTx3pN">
+              <p:NodeReference LastCategoryFullName="Collections.Spread" LastDependency="VL.CoreLib.vl">
+                <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                <CategoryReference Kind="4026531840" Name="Spread" NeedsToBeDirectParent="true" />
+                <Choice Kind="OperationCallFlag" Name="Reverse" />
+              </p:NodeReference>
+              <Pin Id="C3LtDRwBIU7NAgxvhwbcNx" Name="Input" Kind="StateInputPin" />
+              <Pin Id="AeFr4dM6lL7NOp6Z4UJk5K" Name="Output" Kind="StateOutputPin" />
+            </Node>
           </Canvas>
           <ProcessDefinition Id="CWoZrNAPXLXL0ZH4SRiHjL" IsHidden="true">
             <Fragment Id="QrykQ0RuP1VLoU2Pnxlf8m" Patch="ABFjbdcNKdoN8PYt1KmIEd" Enabled="true" />
@@ -3292,7 +3301,6 @@
           <Link Id="P7bbGfOPrZDNOeM4jjPRqq" Ids="VPRjiQp3ngaM55Z7GRjYAi,Tq5QNGoLX2pLUVjhyRK0Z7" />
           <Link Id="IDuZKcihH8FLWGLiv9eGJv" Ids="S9sgZWyGLXSM2M3yMt16ey,Is2KYtEBcqYNjyQJqNgSIG" />
           <Link Id="Dw6gULBCMzgPdthdFv4G3B" Ids="KIT9iK044VTP7Z1iHH7Hji,CFP1hd0LobROmCCfOAGU1m" />
-          <Link Id="RSThSmTfnh7LcU0bb26vhn" Ids="DSCdY8wYBxqLwZ3UbUlYgL,IZyyklol8CnNs4N8kqJs0w" />
           <Slot Id="PEXq0D7I1J4MgXWeucVXUf" Name="IDs" />
           <Link Id="UTqexDtTp31M6ybHXxeFd3" Ids="US8C9bywg27PHLfoxoaGA6,AHE4fU0UI69NSaIu2B6Sqk" IsHidden="true" />
           <Link Id="KOWzSgUMPh0MdLNFA8hX2z" Ids="CBngjEX5mLiNxKdp4pvQ2m,DGSMvn40pxHN8VWI7OP6I6" IsHidden="true" />
@@ -3515,6 +3523,8 @@
           <Link Id="NCMUePa6A9KOptZjgT0oFf" Ids="PHp3emhqOEYM3rNCbrTPxl,DgR5xdzIFVSNVSW1rZlMvQ" />
           <Link Id="M1a5NxIUtxuQbc18dZXFIF" Ids="EzUtc8LhopPPUaDovLSTqE,G3BTDNOUCmwLneGbhI8Rix" />
           <Link Id="UHzGIZSvylHPavmjg111o0" Ids="EzUtc8LhopPPUaDovLSTqE,KIT9iK044VTP7Z1iHH7Hji" />
+          <Link Id="F1YY2k9xtJYP857ESPK9og" Ids="DSCdY8wYBxqLwZ3UbUlYgL,C3LtDRwBIU7NAgxvhwbcNx" />
+          <Link Id="O4xayK78WL7LKJros2hm9Y" Ids="AeFr4dM6lL7NOp6Z4UJk5K,IZyyklol8CnNs4N8kqJs0w" />
         </Patch>
       </Node>
       <!--
