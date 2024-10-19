@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" xmlns:r="reflection" Id="L6dE23ynRziLz26ac9rQZw" Authors="digitalWannabe" LanguageVersion="2024.6.7-0127-g8093c79f80" Version="0.128">
-  <NugetDependency Id="LGMG7ppBrrDMYbe93Iozdc" Location="VL.CoreLib" Version="2024.6.7-0127-g8093c79f80" />
+<Document xmlns:p="property" xmlns:r="reflection" Id="L6dE23ynRziLz26ac9rQZw" Authors="digitalWannabe" LanguageVersion="2024.6.7-0185-g7d063e105d" Version="0.128">
+  <NugetDependency Id="LGMG7ppBrrDMYbe93Iozdc" Location="VL.CoreLib" Version="2024.6.7-0185-g7d063e105d" />
   <Patch Id="OgjtF5CQxiKLdqtM9qY9G6">
     <Canvas Id="MjaOtyVofLNLcmRtmAdeIK" DefaultCategory="2D.Geometry.Triangulation" CanvasType="FullCategory">
       <!--
@@ -2134,16 +2134,6 @@
                   <Pin Id="OMomyzCHbPsNZkbSW01A7J" Name="Result" Kind="OutputPin" />
                 </Node>
                 <ControlPoint Id="DfwClFv89fcM4UwhbRFT9N" Bounds="1704,405" />
-                <Node Bounds="1541,470,64,19" Id="Su0ytwPkPADM6Yj5o7EjkH">
-                  <p:NodeReference LastCategoryFullName="2D.Vector2" LastDependency="VL.CoreLib.vl">
-                    <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                    <CategoryReference Kind="4043309057" Name="Vector2" NeedsToBeDirectParent="true" />
-                    <Choice Kind="OperationCallFlag" Name="Transform" />
-                  </p:NodeReference>
-                  <Pin Id="KnTAIo3YBSyOj2CrOLC3d8" Name="Input" Kind="StateInputPin" />
-                  <Pin Id="Ekm2I1R9wxeOg37H5YVyiA" Name="Transform" Kind="InputPin" />
-                  <Pin Id="Avzitmdvq9GNcpSaWkpTVP" Name="Output" Kind="StateOutputPin" />
-                </Node>
               </Patch>
               <ControlPoint Id="KIT9iK044VTP7Z1iHH7Hji" Bounds="1544,539" Alignment="Bottom" />
               <ControlPoint Id="KJALwD1oV43MCjQEwAWSuN" Bounds="1614,539" Alignment="Bottom" />
@@ -3207,26 +3197,6 @@
                 <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
               </p:ValueBoxSettings>
             </Pad>
-            <Node Bounds="1764,440,54,19" Id="JcsnYGZVbRVOFCyAQ1l7jT">
-              <p:NodeReference LastCategoryFullName="3D.Matrix" LastDependency="VL.CoreLib.vl">
-                <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                <FullNameCategoryReference ID="3D.Matrix" />
-                <Choice Kind="OperationCallFlag" Name="Rotation" />
-              </p:NodeReference>
-              <Pin Id="DKC0QqLl2t7QKi7hGDrSiR" Name="Pitch" Kind="InputPin" />
-              <Pin Id="RwqPlI7EhSeLRRrCPfxEjF" Name="Yaw" Kind="InputPin" DefaultValue="0.5" />
-              <Pin Id="HbpYTiE5f1ELU6zPsOkfNP" Name="Roll" Kind="InputPin" />
-              <Pin Id="PkH7wNgvDwwQbWGYUBSpPL" Name="Result" Kind="OutputPin" />
-            </Node>
-            <Pad Id="QRPIe6VVAFwNXKxfMRf4YA" Bounds="1757,484,122,19" ShowValueBox="true" isIOBox="true" Value="orientation hack... ">
-              <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
-                <Choice Kind="TypeFlag" Name="String" />
-              </p:TypeAnnotation>
-              <p:ValueBoxSettings>
-                <p:fontsize p:Type="Int32">9</p:fontsize>
-                <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
-              </p:ValueBoxSettings>
-            </Pad>
           </Canvas>
           <ProcessDefinition Id="CWoZrNAPXLXL0ZH4SRiHjL" IsHidden="true">
             <Fragment Id="QrykQ0RuP1VLoU2Pnxlf8m" Patch="ABFjbdcNKdoN8PYt1KmIEd" Enabled="true" />
@@ -3543,10 +3513,8 @@
           <Link Id="HXVRmeMkQRQQMzdrE8uYkZ" Ids="BFmftIlK5n5Opi7S8Gk3uF,GeW0Q5TH2bHL4M9LFoxeDg" />
           <Link Id="LtvOijGPTUYNm7tR4hGfmA" Ids="HQaWZJMxZKhNkV1ZApIgvc,CZAwLJsNW1cLcroH44C8r2" />
           <Link Id="NCMUePa6A9KOptZjgT0oFf" Ids="PHp3emhqOEYM3rNCbrTPxl,DgR5xdzIFVSNVSW1rZlMvQ" />
-          <Link Id="TP6vOcEihVENZqMngYwwXX" Ids="PkH7wNgvDwwQbWGYUBSpPL,Ekm2I1R9wxeOg37H5YVyiA" />
-          <Link Id="HGEdDjxXjnPQZfiZMVMx4P" Ids="EzUtc8LhopPPUaDovLSTqE,KnTAIo3YBSyOj2CrOLC3d8" />
-          <Link Id="SmRogxRxlV9L47P4yHnGZK" Ids="Avzitmdvq9GNcpSaWkpTVP,G3BTDNOUCmwLneGbhI8Rix" />
-          <Link Id="VqE2skKrnkxLMM0YTlKuOB" Ids="Avzitmdvq9GNcpSaWkpTVP,KIT9iK044VTP7Z1iHH7Hji" />
+          <Link Id="M1a5NxIUtxuQbc18dZXFIF" Ids="EzUtc8LhopPPUaDovLSTqE,G3BTDNOUCmwLneGbhI8Rix" />
+          <Link Id="UHzGIZSvylHPavmjg111o0" Ids="EzUtc8LhopPPUaDovLSTqE,KIT9iK044VTP7Z1iHH7Hji" />
         </Patch>
       </Node>
       <!--
@@ -4067,6 +4035,6 @@
     </Node>
   </Patch>
   <PlatformDependency Id="IrFifY2U1lANlxyr2AWvlk" Location="./lib/Triangle.dll" IsForward="true" />
-  <NugetDependency Id="QswGmKZ1NpCNzSUmb8L5Dt" Location="VL.Stride" Version="2024.6.7-0127-g8093c79f80" />
-  <NugetDependency Id="I7OsZsUHdhSMijxQeXeI4x" Location="VL.Stride.TextureFX" Version="2024.6.7-0127-g8093c79f80" />
+  <NugetDependency Id="QswGmKZ1NpCNzSUmb8L5Dt" Location="VL.Stride" Version="2024.6.7-0185-g7d063e105d" />
+  <NugetDependency Id="I7OsZsUHdhSMijxQeXeI4x" Location="VL.Stride.TextureFX" Version="2024.6.7-0185-g7d063e105d" />
 </Document>
