@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" xmlns:r="reflection" Id="HZqrVP5eG8qPe0YKCuprgi" Authors="digitalWannabe" LanguageVersion="2024.6.7-0185-g7d063e105d" Version="0.128">
-  <NugetDependency Id="LGMG7ppBrrDMYbe93Iozdc" Location="VL.CoreLib" Version="2024.6.7-0185-g7d063e105d" />
+<Document xmlns:p="property" xmlns:r="reflection" Id="HZqrVP5eG8qPe0YKCuprgi" Authors="digitalWannabe" LanguageVersion="2025.7.0" Version="0.128">
+  <NugetDependency Id="LGMG7ppBrrDMYbe93Iozdc" Location="VL.CoreLib" Version="2025.7.0" />
   <Patch Id="OgjtF5CQxiKLdqtM9qY9G6">
     <Canvas Id="MjaOtyVofLNLcmRtmAdeIK" DefaultCategory="2D.Geometry.Triangulation" CanvasType="FullCategory">
       <!--
@@ -408,7 +408,7 @@
               <Patch Id="SNbf0tTXXz3MJnDlzgd2T3" ManuallySortedPins="true">
                 <Patch Id="Pbwcpld4K3ZOvrWKYSh8ST" Name="Create" ManuallySortedPins="true" />
                 <Patch Id="S59VcOuI4U2Lw4a3HSPbUA" Name="Update" ManuallySortedPins="true" />
-                <Node Bounds="754,396,386,555" Id="VZoNeWuih0UNCw2pifYWKN">
+                <Node Bounds="753,396,386,555" Id="VZoNeWuih0UNCw2pifYWKN">
                   <p:NodeReference LastCategoryFullName="Primitive" LastDependency="Builtin">
                     <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
                     <CategoryReference Kind="Category" Name="Primitive" />
@@ -563,14 +563,18 @@
               <Pin Id="AZt4NF29BI4MEFFVuV9JLk" Name="Node Context" Kind="InputPin" IsHidden="true" />
               <Pin Id="RwtuGGTa5VzM0uReokEFDm" Name="User Exceptions Channel" Kind="InputPin" IsHidden="true" />
               <Pin Id="CKpPAyGEfRvOFYOqODtX0f" Name="Stick To Last Valid Outputs" Kind="InputPin" />
-              <Pin Id="KKK11lrAPJPMTdDyposhem" Name="Reset Region On Failure" Kind="InputPin" />
+              <Pin Id="KKK11lrAPJPMTdDyposhem" Name="Reset Region On Failure" Kind="InputPin" DefaultValue="True" />
               <Pin Id="BPJ9DjrzwbMMQoEH6Vwl2T" Name="Success" Kind="OutputPin" />
               <Pin Id="K3KO7T3Xx7mMWzPt8GQ5lO" Name="Failure" Kind="OutputPin" />
               <Pin Id="HOPCrSCPoe9LFVKctp3auI" Name="Error Message" Kind="OutputPin" />
               <Pin Id="CzpSXggcUAQLBbXL28WIz8" Name="Exceptions" Kind="OutputPin" />
               <ControlPoint Id="G6QnfCoJdnoOYgOe0Ejo50" Bounds="911,965" Alignment="Bottom" />
+              <Pin Id="R7VGzeHCGDdMymu6GEgeJF" Name="Warn" Kind="InputPin" DefaultValue="True" />
             </Node>
             <ControlPoint Id="Cx9P2CxP8tZLLyCvBq578t" Bounds="1002,1005" />
+            <ControlPoint Id="O7frpbkdZh1OB5B7ci0JJO" Bounds="712,1030" />
+            <ControlPoint Id="AMz1kfq6uRJOTbQwvqeXB9" Bounds="850,1040" />
+            <ControlPoint Id="AVm99mpfyDzOK9aiInTSzj" Bounds="1149,1030" />
           </Canvas>
           <ProcessDefinition Id="Axw3vy2L1FxO1RxEqoU4WD">
             <Fragment Id="HZ5CnyA3g1kOIa1RgQdu1X" Patch="VJjSN2hIZ4HL8eZPB04HOt" Enabled="true" />
@@ -606,6 +610,9 @@
             <Pin Id="EkbqigQx6mtP0DdNb3sku0" Name="Run" Kind="InputPin" Visibility="Optional" />
             <Pin Id="TQyGPXhIglpOJqMx5hYyCe" Name="Mesh" Kind="OutputPin" />
             <Pin Id="Rb6c9DcqyRZOOo4OeOQFc0" Name="Error Message" Kind="OutputPin" />
+            <Pin Id="StxGxyYIv7FLfraf1a7Cv7" Name="Success" Kind="OutputPin" />
+            <Pin Id="QlANcx0vXoPMKMjA0BmNxn" Name="Failure" Kind="OutputPin" />
+            <Pin Id="AIm9viqKKT6NfquWaTAR7c" Name="Exceptions" Kind="OutputPin" />
           </Patch>
           <Link Id="TJnctfcOxLrPe9T5JZ33JG" Ids="MvPSiHkI50wL4y0PSFo7IZ,TQyGPXhIglpOJqMx5hYyCe" IsHidden="true" />
           <Link Id="U1mqglLmd9oN0URfL27DZj" Ids="SPLMPrJzOHBLkqVenxnWhV,GOzKNjop27ULkF47OIPeqS" />
@@ -635,6 +642,12 @@
           <Link Id="QXcngYlev0XPkJlzZAOKbl" Ids="G6QnfCoJdnoOYgOe0Ejo50,MvPSiHkI50wL4y0PSFo7IZ" />
           <Link Id="RwDH9isuBrPOeZ5FOUiG0u" Ids="Cx9P2CxP8tZLLyCvBq578t,Rb6c9DcqyRZOOo4OeOQFc0" IsHidden="true" />
           <Link Id="SFPMspl3upoLNRfvn6V4gi" Ids="HOPCrSCPoe9LFVKctp3auI,Cx9P2CxP8tZLLyCvBq578t" />
+          <Link Id="TDXKQcOsJ2QPi0gY4NwtoS" Ids="O7frpbkdZh1OB5B7ci0JJO,StxGxyYIv7FLfraf1a7Cv7" IsHidden="true" />
+          <Link Id="Vd7iaX8GgnjLUMTYxezhzD" Ids="BPJ9DjrzwbMMQoEH6Vwl2T,O7frpbkdZh1OB5B7ci0JJO" />
+          <Link Id="VDI8xdeYGWUPtKDVglVQKy" Ids="AMz1kfq6uRJOTbQwvqeXB9,QlANcx0vXoPMKMjA0BmNxn" IsHidden="true" />
+          <Link Id="G783rsh7qr3NtLWI0qh1t0" Ids="K3KO7T3Xx7mMWzPt8GQ5lO,AMz1kfq6uRJOTbQwvqeXB9" />
+          <Link Id="RYWqz43Y0lUO3DJkxqzcyU" Ids="AVm99mpfyDzOK9aiInTSzj,AIm9viqKKT6NfquWaTAR7c" IsHidden="true" />
+          <Link Id="RaMOZo69MNAOC61s0MTwim" Ids="CzpSXggcUAQLBbXL28WIz8,AVm99mpfyDzOK9aiInTSzj" />
         </Patch>
       </Node>
       <!--
@@ -3847,6 +3860,7 @@
               <Pin Id="Ai4szSqf5h8MDcb8p6t0gt" Name="Exceptions" Kind="OutputPin" />
               <ControlPoint Id="JpITRt8VLULQKIaMLEBNaW" Bounds="247,252" Alignment="Bottom" />
               <ControlPoint Id="TyhNk6C0ahePBc11tuqrNM" Bounds="336,252" Alignment="Bottom" />
+              <Pin Id="T12YORYNezAPrwkz9HUjuU" Name="Warn" Kind="InputPin" />
             </Node>
           </Canvas>
           <ProcessDefinition Id="AwFjn9tZhltOCh8ffQvvt9">
@@ -4055,6 +4069,6 @@
     </Node>
   </Patch>
   <PlatformDependency Id="IrFifY2U1lANlxyr2AWvlk" Location="./lib/Triangle.dll" IsForward="true" />
-  <NugetDependency Id="QswGmKZ1NpCNzSUmb8L5Dt" Location="VL.Stride" Version="2024.6.7-0185-g7d063e105d" />
-  <NugetDependency Id="I7OsZsUHdhSMijxQeXeI4x" Location="VL.Stride.TextureFX" Version="2024.6.7-0185-g7d063e105d" />
+  <NugetDependency Id="QswGmKZ1NpCNzSUmb8L5Dt" Location="VL.Stride" Version="2025.7.0" />
+  <NugetDependency Id="I7OsZsUHdhSMijxQeXeI4x" Location="VL.Stride.TextureFX" Version="2025.7.0" />
 </Document>
